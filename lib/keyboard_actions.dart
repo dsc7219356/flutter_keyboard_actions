@@ -471,7 +471,7 @@ class KeyboardActionstate extends State<KeyboardActions>
 
   void _onKeyboardChanged(bool isVisible) {
     if (!isVisible && isKeyboardOpen) {
-      _clearFocus();
+    //  _clearFocus();
     }
   }
 
